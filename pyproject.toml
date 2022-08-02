@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "crmlms"
+version = "0.0.1"
+description = "CRM and LMS package"
+authors = ["Ali Azaz <ajaz.ali186@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+djangorestframework = "^3.13.1"
+psycopg2-binary = "^2.9.3"
+graphene-django = "^2.15.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
